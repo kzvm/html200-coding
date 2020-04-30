@@ -1,7 +1,6 @@
-let surf = ['I', 'love', 'surfing', 'in', 'my', 'home', 'town'];
+let surf = 'I love surfing in my home town.';
 
-const surfing = surf.join(' ');
+const surfing = surf.split(' ');
 
 console.log(surfing);
-
-console.log(surf[2]);
+console.log(surfing[2]);
