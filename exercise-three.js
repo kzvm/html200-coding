@@ -1,7 +1,6 @@
-const surfboards = ['Shortboard', 'Funboard', 'Longboard', 'Paddleboard', 'Fishboard'];
-
-for (let i = 0; i < surfboards.length; i++) {
-    console.log(surfboards[i]);
-    }
-
+var text = "surf";
+var i;
+for (i = 0; i < 5; i++) {
+    console.log(i + "," + text);
+}
 
